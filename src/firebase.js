@@ -1,6 +1,6 @@
 import firebase from 'firebase'
 
-const firebaseApp=firebase.intializeApp({
+var firebaseApp=firebase.initializeApp({
    
         apiKey: "AIzaSyAIbPrxdPhHedMmTeNA7OJ196JJULq9E38",
         authDomain: "react-contact-form-73f1b.firebaseapp.com",
@@ -10,7 +10,7 @@ const firebaseApp=firebase.intializeApp({
         appId: "1:323607765880:web:1a0202147f77c8f219de8d"
       
     
-})
+});
 
 var db=firebaseApp.firestore();
 
